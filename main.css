@@ -3,23 +3,18 @@ body{
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  margin: 0px;
-  padding: 0px;
-}
-#main{
-  display: flex;
 }
 #Gab {
   display: flex;
   margin: auto;
   background-color: rgba(200,200,200,0.5);
-  font-size: 25px;
   height: 800px;
-  width: 60%;
+  width: 400px;
   border-radius: 20px;
   text-align: center;
   align-items: center;
   line-height:0px;
+
 }
 .gab{
   margin: auto;
@@ -36,6 +31,7 @@ body{
   justify-content: center;
   align-items: center;
   color: aliceblue;
+  opacity: 0.75;
 }
 #Dan{
   text-align: center;
@@ -44,8 +40,7 @@ body{
   font-size: 30px;
   width: 100%;
   color: #901E16;
-  margin: 0px;
-  padding: 0px;
+  opacity: 0.75;
 
 
 }
@@ -65,4 +60,5 @@ body{
   position: fixed;
   left: 10px;
   bottom: 10px;
+  z-index: 1;
 }
