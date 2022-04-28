@@ -42,8 +42,9 @@
 
 .login {
   margin: auto;
-  border: 5px dotted black;
+  border: 5px solid black;
   text-align: center;
   background-color: aqua;
   width: 500px;
+  border-radius: 20px;
 }
