@@ -1,8 +1,16 @@
 #Gab {
-    height: 350px;
-    width: 200px;
-    text-align: center;
-    line-height:0px;
+  display: flex;
+  margin: auto;
+  background-color: rgba(200,200,200,0.5);
+  height: 400px;
+  width: 500px;
+  border-radius: 20px;
+  text-align: center;
+  align-items: center;
+  line-height:0px;
+}
+.gab{
+  margin: auto;
 }
 #lmao{
   background-color: rgb(255, 0, 0);
