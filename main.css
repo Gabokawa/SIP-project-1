@@ -30,12 +30,15 @@
   font-weight: bold;
   background-color: #EB917E;
   font-size: 30px;
-  color: #901E16
-;
+  color: #901E16;
 }
 
 .Button1 {
   background-color: #F3BEBB;
   color: red;
   font-size: 25px;
+}
+
+.login {
+  border: 5px dotted black;
 }
