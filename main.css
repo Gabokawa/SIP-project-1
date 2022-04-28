@@ -2,8 +2,8 @@
   display: flex;
   margin: auto;
   background-color: rgba(200,200,200,0.5);
-  height: 400px;
-  width: 500px;
+  height: 800px;
+  width: 400px;
   border-radius: 20px;
   text-align: center;
   align-items: center;
@@ -32,6 +32,8 @@
   font-size: 30px;
   width: 100%;
   color: #901E16;
+
+
 }
 
 .Button1 {
@@ -47,4 +49,5 @@
   background-color: aqua;
   width: 500px;
   border-radius: 20px;
+  position: fixed;
 }
