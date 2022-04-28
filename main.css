@@ -1,5 +1,5 @@
 #Gab {
-      height: 350px;
+    height: 350px;
     width: 200px;
     text-align: center;
     line-height:0px;
@@ -15,4 +15,18 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.Dan{
+  text-align: center;
+  font-weight: bold;
+  background-color: #EB917E;
+  font-size: 30px;
+  color: #901E16
+;
+}
+
+.Button1 {
+  background-color: #F3BEBB;
+  color: red;
+  font-size: 25px;
 }
