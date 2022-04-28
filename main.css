@@ -1,8 +1,3 @@
-*{
-margin-top: 0;
-padding:0;
-}
-
 body{
   background-image: url("rainbow slash.jpg");
   background-repeat: no-repeat;
@@ -10,25 +5,39 @@ body{
   background-size: cover;
   margin: 0;
   padding:0;
-  
- 
+}
+#main{
+  display: flex;
 }
 #Gab {
+  position: relative;
+  left: 17%;
   display: flex;
   margin: auto;
-  background-color: rgba(200,200,200,0.5);
+  background-color: rgba(200,200,200,0.9);
+  font-size: 35px;
   height: 800px;
-  width: 400px;
+  width: 32%;
   border-radius: 20px;
   text-align: center;
   align-items: center;
   line-height:0px;
-
-
+}
+#desc {
+  position: relative;
+  left: 33.75%;
+  display: flex;
+  background-color: rgba(200,200,200,0.9);
+  font-size: 20px;
+  height: 780px;
+  width: 30%;
+  border-radius: 20px;
+  padding-top: 20px;
+  padding-left: 1%;
+  padding-right: 1%;
 }
 .gab{
   margin: auto;
-
 }
 #lmao{
   background-color: rgb(255, 0, 0);
@@ -44,7 +53,7 @@ body{
   color: aliceblue;
   opacity: 0.75;
   margin-bottom: 0;
-  
+
 }
 #Dan{
   text-align: center;
@@ -82,7 +91,7 @@ body{
   font-size: 80px;
 }
 .logo{
-  
+
   text-align: center;
   width: 300px;
   border-radius: 20px;
@@ -96,7 +105,7 @@ body{
   border: 5px solid black;
   text-align: center;
   background-color: aqua;
-  width: 370px;
+  width: 26%;
   border-radius: 20px;
   position: fixed;
   left: 10px;
