@@ -52,8 +52,18 @@ body{
   opacity: 0.75;
   margin-top: 0;
   padding:0;
+}
 
-
+#log {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 5px 6px;
+    border-radius: 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 9px;
 }
 
 .Button1 {
