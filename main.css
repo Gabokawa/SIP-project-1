@@ -52,8 +52,18 @@ body{
   opacity: 0.75;
   margin-top: 0;
   padding:0;
+}
 
-
+#log {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 5px 6px;
+    border-radius: 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 9px;
 }
 
 .Button1 {
@@ -75,10 +85,11 @@ body{
   z-index: 1;
 }
 .login {
+  font-family: sans-serif;
   border: 5px solid black;
   text-align: center;
   background-color: aqua;
-  width: 500px;
+  width: 370px;
   border-radius: 20px;
   position: fixed;
   left: 10px;
