@@ -40,7 +40,9 @@
 }
 
 .login {
+  margin-left: 37%;
   border: 5px dotted black;
   text-align: center;
   background-color: aqua;
+  width: 500px;
 }
