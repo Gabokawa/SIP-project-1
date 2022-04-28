@@ -6,12 +6,16 @@ body{
   margin: 0px;
   padding: 0px;
 }
+#main{
+  display: flex;
+}
 #Gab {
   display: flex;
   margin: auto;
   background-color: rgba(200,200,200,0.5);
+  font-size: 25px;
   height: 800px;
-  width: 400px;
+  width: 60%;
   border-radius: 20px;
   text-align: center;
   align-items: center;
