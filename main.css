@@ -8,22 +8,37 @@ body{
   display: flex;
 }
 #Gab {
+  position: relative;
+  left: 65%;
   display: flex;
-  margin: auto;
-  background-color: rgba(200,200,200,0.5);
-  font-size: 25px;
+  background-color: rgba(200,200,200,0.9);
+  font-size: 30px;
   height: 800px;
-  width: 60%;
+  width: 35%;
   border-radius: 20px;
   text-align: center;
-  align-items: center;
-  line-height:0px;
+  line-height: 0px;
+  align-items: right;
+}
+#desc {
+  position: relative;
+  right: 6.5%;
+  display: flex;
+  background-color: rgba(200,200,200,0.9);
+  height: 790px;
+  width: 33%;
+  border-radius: 20px;
+  font-size: 20px;
+  padding-top: 10px;
+  padding-left: 1%;
+  padding-right: 1%;
 }
 .gab{
   margin: auto;
 }
 #lmao{
   background-color: rgb(255, 0, 0);
+  margin: auto;
   width: 100%;
   height: 300px;
   font-size: 30px;
