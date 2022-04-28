@@ -10,8 +10,8 @@ body{
   background-size: cover;
   margin: 0;
   padding:0;
-  
- 
+
+
 }
 #Gab {
   display: flex;
@@ -44,7 +44,7 @@ body{
   color: aliceblue;
   opacity: 0.75;
   margin-bottom: 0;
-  
+
 }
 #Dan{
   text-align: center;
@@ -82,7 +82,7 @@ body{
   font-size: 80px;
 }
 .logo{
-  
+
   text-align: center;
   width: 300px;
   border-radius: 20px;
@@ -96,7 +96,7 @@ body{
   border: 5px solid black;
   text-align: center;
   background-color: aqua;
-  width: 370px;
+  width: 26%;
   border-radius: 20px;
   position: fixed;
   left: 10px;
