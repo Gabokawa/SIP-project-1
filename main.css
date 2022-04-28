@@ -5,16 +5,17 @@
     line-height:0px;
 }
 #lmao{
-  background-color: rgb(255,0,0);
-  width: 1000px;
-  height: 200px;
+  background-color: rgb(255, 0, 0);
+  width: 1900px;
+  height: 300px;
   font-size: 30px;
   font-family: courier;
   font-weight: bold;
-  letter-spacing: 5px;
+  letter-spacing: 30px;
   display: flex;
   justify-content: center;
   align-items: center;
+  color: aliceblue;
 }
 .Dan{
   text-align: center;
