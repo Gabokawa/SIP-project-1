@@ -1,0 +1,18 @@
+#Gab {
+      height: 350px;
+    width: 200px;
+    text-align: center;
+    line-height:0px;
+}
+#lmao{
+  background-color: rgb(255,0,0);
+  width: 1000px;
+  height: 200px;
+  font-size: 30px;
+  font-family: courier;
+  font-weight: bold;
+  letter-spacing: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
