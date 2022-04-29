@@ -87,7 +87,10 @@ body{
     font-size: 9px;
 
 }
+#ThadText{
+  margin: auto;
 
+}
 .Button1 {
   background-color: #F3BEBB;
   color: red;
@@ -109,19 +112,24 @@ body{
 .login {
   font-family: sans-serif;
   border: 5px solid black;
+  display: flex;
   text-align: center;
+  align-items: center;
   background-color: aqua;
   width: 26%;
+  height: 65%;
   border-radius: 20px;
   position: fixed;
   left: 10px;
-  bottom: 10px;
+  bottom: 200px;
   z-index: 1;
   opacity: 0.75;
 }
 .buttondownload{
+  height: 11%;
+  width: 25%;
   font-size: 75px;
-  bottom: 250px;
+  bottom: 80px;
   left: 20px;
   position: fixed;
   z-index: 1;
