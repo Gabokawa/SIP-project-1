@@ -1,14 +1,14 @@
 @font-face {
-  font-family: aaargh;
-  src: url("Aaargh.ttf");
+  font-family: arcade;
+  src: url("ARCADECLASSIC.ttf");
 }
 body{
-  background-image: url("ArtGallery.jpg");
+  background-image: url("ArtGallery.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
-  font-family: aaargh;
+  font-family: arcade;
   margin: 0;
   padding:0;
 }
@@ -57,11 +57,10 @@ body{
   background-color: rgb(255, 0, 0);
   width: 100%;
   height: 150px;
-  font-size: 80px;
-  font-family: courier;
+  font-size: 100px;
   font-weight: bold;
   position: fixed;
-  letter-spacing: 50px;
+  letter-spacing: 80px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -80,10 +79,7 @@ body{
   opacity: 0.75;
   margin-top:0;
   padding:0;
-
-
 }
-
 #log {
     background-color: #4CAF50; /* Green */
     border: none;
@@ -118,7 +114,6 @@ body{
   z-index: 1;
 }
 .login {
-  font-family: sans-serif;
   border: 5px solid black;
   display: flex;
   text-align: center;
@@ -145,4 +140,19 @@ body{
   background-color: #3B9D38;
   color: white;
   opacity: 0.75;
+}
+input[type=button]{
+  font-family: arcade;
+}
+input[type=text]{
+  font-family: arcade;
+  font-size: 30px;
+  width: 400px;
+  height: 30px;
+}
+input[type=password]{
+  font-family: arcade;
+  font-size: 30px;
+  width: 400px;
+  height: 30px;
 }
