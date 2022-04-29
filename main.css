@@ -7,6 +7,7 @@ body{
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  background-attachment: fixed;
   font-family: aaargh;
   margin: 0;
   padding:0;
@@ -14,19 +15,26 @@ body{
 #main{
   display: flex;
 }
-#Gab {
+.art{
   position: relative;
-  left: 17%;
+  z-index: -1;
+  top: 150px;
+  left: 27%;
   display: flex;
-  margin: auto;
+  margin: 25px;
   background-color: rgba(200,200,200,0.9);
-  font-size: 35px;
-  color: red;
-  height: 800px;
-  width: 32%;
   border-radius: 20px;
   text-align: center;
   align-items: center;
+}
+.image{
+  object-fit: scale-down;
+  margin: 50px;
+}
+#Gab {
+  font-size: 35px;
+  width: 32%;
+  border-radius: 20px;
   line-height:0px;
 }
 #desc {
@@ -43,7 +51,7 @@ body{
   padding-right: 1%;
 }
 .gab{
-  margin: auto;
+  margin: 50px;
 }
 #lmao{
   background-color: rgb(255, 0, 0);
@@ -52,6 +60,7 @@ body{
   font-size: 80px;
   font-family: courier;
   font-weight: bold;
+  position: fixed;
   letter-spacing: 50px;
   display: flex;
   justify-content: center;
@@ -59,7 +68,7 @@ body{
   color: white;
   opacity: 0.9;
   margin-bottom: 0;
-  margin-top: -30px;
+  margin-top: -10px;
 }
 #Dan{
   text-align: center;
