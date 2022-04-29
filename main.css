@@ -79,11 +79,12 @@ body{
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 9px;
+    font-size: 105%;
 
 }
 #ThadText{
   margin: auto;
+  font-size: 205%;
 
 }
 .Button1 {
