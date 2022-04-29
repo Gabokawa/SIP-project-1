@@ -112,9 +112,10 @@ body{
   left: 10px;
   bottom: 10px;
   z-index: 1;
+  opacity: 0.75;
 }
 .buttondownload{
-  font-size: 80px;
+  font-size: 75px;
   bottom: 250px;
   left: 20px;
   position: fixed;
@@ -122,4 +123,5 @@ body{
   border-radius: 20px;
   background-color: #3B9D38;
   color: white;
+  opacity: 0.75;
 }
